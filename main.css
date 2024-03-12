@@ -155,11 +155,16 @@ background-color: #0096CC;
 
 .voice_to_text {
     background: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    height: 75px;
+    width: 65px;
     border: 2px solid white; /* Add a white border */
     color: white;
     border-radius: 30px; /* Adjust the border-radius to create an oval shape */
     transition: all 0.3s ease; /* Add a smooth transition effect to all properties */
     font-family: Arial, Helvetica, sans-serif;
+    padding: 12px; /* Adjust padding for a smaller button */
 }
 
 .voice_to_text {
@@ -168,12 +173,11 @@ background-color: #0096CC;
 
 .voice_to_text:hover {
     transform: scale(1.05); /* Slightly reduce the scaling for a subtle effect */
-    letter-spacing: 1px; /* Adjust the letter spacing */
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Apply a subtle gradient background */
-    color: #1e3059; /* Use a specific dark blue color for text */
+ /* Apply a subtle gradient background */
+    background-color: rgb(0, 0, 0);
+    color: #20376c; /* Use a specific dark blue color for text */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soften the box shadow */
-    padding: 12px 20px; /* Adjust padding for a smaller button */
+    padding: 12px; /* Adjust padding for a smaller button */
     border-radius: 5px; /* Add a slight border-radius for rounded corners */
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a slight text shadow */
     font-weight: bold; /* Increase font weight for a bolder look */
 }
